@@ -1,6 +1,6 @@
 # Project rundown
 
-This is a personal React web-app project with filter, search, and multiple view options functionalities in a library of books, shows, and films that I've seen. 
+This is a personal React web-app project with filter, search, and multiple view options functionalities in a library of books, shows, and films that I've seen. I created a custom [JSON API](https://my-media-api-project.herokuapp.com/media) containing all the media, with the code [here](https://github.com/luluzhu9/media-api). 
 
 # React
 
