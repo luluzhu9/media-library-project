@@ -1,0 +1,46 @@
+.grid-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #F6F6F8;
+    margin: 15px;
+    border-radius: 10px;
+    width: 280px;
+    height: 225px;
+    border: 1.5px solid rgb(225, 225, 225);
+    cursor: pointer;
+}
+
+.grid-image {
+    display: flex;
+    justify-content: center;
+    height: 145px;
+    align-items: center;
+}
+
+.grid-image img {
+    width: 100px;
+    height: 85%;
+    object-fit: contain;
+}
+
+.grid-label {
+    background-color: white;
+    height: 80px;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'IBM Plex Serif', serif;
+    padding-right: 11px;
+}
+
+.grid-name {
+    margin-top: 13px;
+    margin-left: 15px;
+    color: rgb(101, 101, 101);
+}
+
+.grid-media-type {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 13px;
+    color: rgb(142, 142, 142);
+}

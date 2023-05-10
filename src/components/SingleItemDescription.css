@@ -1,0 +1,14 @@
+.single-item-description-container {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: auto;
+    padding: 0.2vw;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 15px;
+    color: rgb(111, 111, 111);
+    border-style: none none solid none;
+    border-color: rgb(237, 237, 237);
+    margin: 10px;
+    text-align: right;
+}

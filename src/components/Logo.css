@@ -1,0 +1,21 @@
+.logo-container {
+    width: 60px;
+    height: 60px;
+    background-image: linear-gradient(lightgray, black);
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+.logo:hover {
+    content: url('../media/cube-hover.gif');
+}
+
+.logo:active {
+    content: url('../media/cube-active.gif');
+}

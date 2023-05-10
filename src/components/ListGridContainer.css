@@ -1,0 +1,11 @@
+.table-list-container {
+    height: 665px;
+    overflow-y: scroll;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
