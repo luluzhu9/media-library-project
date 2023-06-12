@@ -1,5 +1,6 @@
 import BackIcon from '../media/back-icon.png';
 import './SingleItemToolbar.css';
+import React from "react";
 
 function SingleItemToolbar ({currMedia, setCurrMedia, setMediasHandler, medias}) {
     /* Close single item tookbar */

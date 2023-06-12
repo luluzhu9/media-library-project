@@ -1,5 +1,6 @@
 import DefaultLogo from '../media/cube-default.gif';
 import './Logo.css'
+import React from "react";
 
 function Logo () {
     return(

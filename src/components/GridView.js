@@ -1,6 +1,7 @@
 import GridIconDefault from '../media/grid-icon-default.png';
 import GridIconActive from '../media/grid-icon-active.png';
 import './GridView.css';
+import React from "react";
 
 function GridView ({setGridIsShown, gridIsShown}) {
     /* Set grid view on and update grid icon to active */

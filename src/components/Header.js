@@ -1,5 +1,6 @@
 import './Header.css';
 import Logo from './Logo.js'
+import React from "react";
 
 function Header ({setGridIsShown, setCurrMedia, setMedias, allMedias}) {
 

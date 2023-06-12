@@ -1,4 +1,5 @@
 import "./SingleItemDescription.css";
+import React from "react";
 
 function SingleItemDescription ({currMedia, category}) {
     return (

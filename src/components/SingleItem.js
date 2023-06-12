@@ -1,5 +1,6 @@
 import './SingleItem.css';
 import SingleItemDescription from './SingleItemDescription.js';
+import React from "react";
 
 function SingleItem ({currMedia}) {
     const categories = ["Name", "Type", "Creator", "Rating"]

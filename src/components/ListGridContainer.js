@@ -1,6 +1,7 @@
 import TableList from './TableList.js';
 import Grid from './Grid.js';
 import './ListGridContainer.css';
+import React from "react";
 
 function ListGridContainer ({allMediasData, gridIsShown, setCurrMedia}) {
     return (

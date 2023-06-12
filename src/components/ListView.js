@@ -1,6 +1,7 @@
 import ListIconDefault from '../media/list-icon-default.png';
 import ListIconActive from '../media/list-icon-active.png';
 import './ListView.css';
+import React from "react";
 
 
 function ListView ({setGridIsShown, gridIsShown}) {

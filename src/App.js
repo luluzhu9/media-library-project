@@ -3,8 +3,9 @@ import Header from './components/Header.js';
 import ListLabel from './components/ListLabel.js';
 import Toolbar from './components/Toolbar.js';
 import ListGridContainer from './components/ListGridContainer.js';
-import SingleItemToolbar from './components/SingleItemToolbar.js'
-import SingleItem from './components/SingleItem.js'
+import SingleItemToolbar from './components/SingleItemToolbar.js';
+import SingleItem from './components/SingleItem.js';
+import database from "./firebase.js";
 
 function App(){
     /* Current filtered medias */
@@ -16,7 +17,6 @@ function App(){
     /* The current media for single item mode, null if none */
     const [currMedia, setCurrMedia] = useState(null);
 
-
     /* Handler for using setMedias in inner components */
     const setMediasHandler = (medias) => {
         setMedias(medias);
@@ -27,8 +27,9 @@ function App(){
         (async () => {
             let mediaData;
             try {
-                const response = await fetch('https://my-media-api-project.herokuapp.com/media');
+                const response = await fetch('https://media-api-3e8fa-default-rtdb.firebaseio.com/media/');
                 mediaData = (await response.json());
+                console.log(mediaData);
             } catch (error) {
                 console.log(error);
                 mediaData = [];

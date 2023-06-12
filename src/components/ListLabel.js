@@ -1,4 +1,5 @@
 import './ListLabel.css';
+import React from "react";
 
 function ListLabel({medias, gridIsShown}) {
     return (

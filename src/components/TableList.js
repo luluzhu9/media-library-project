@@ -1,4 +1,5 @@
 import './TableList.css';
+import React from "react";
 
 function TableList ({mediaData, setCurrMedia}) {
     /* If single item is clicked, turn on single item view by setting the current media to the clicked media */
