@@ -1,13 +1,13 @@
 {
-  "files": {
-    "main.css": "/media-library-project/static/css/main.c4a7b7f6.css",
-    "main.js": "/media-library-project/static/js/main.c6197d8a.js",
-    "index.html": "/media-library-project/index.html",
-    "main.c4a7b7f6.css.map": "/media-library-project/static/css/main.c4a7b7f6.css.map",
-    "main.c6197d8a.js.map": "/media-library-project/static/js/main.c6197d8a.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.c4a7b7f6.css",
-    "static/js/main.c6197d8a.js"
-  ]
+  "main.css": "/media-library-project/static/css/main.c4dbb367.chunk.css",
+  "main.js": "/media-library-project/static/js/main.5e6d3d59.chunk.js",
+  "main.js.map": "/media-library-project/static/js/main.5e6d3d59.chunk.js.map",
+  "static/js/1.1a8b0749.chunk.js": "/media-library-project/static/js/1.1a8b0749.chunk.js",
+  "static/js/1.1a8b0749.chunk.js.map": "/media-library-project/static/js/1.1a8b0749.chunk.js.map",
+  "runtime~main.js": "/media-library-project/static/js/runtime~main.cd7352cc.js",
+  "runtime~main.js.map": "/media-library-project/static/js/runtime~main.cd7352cc.js.map",
+  "static/css/main.c4dbb367.chunk.css.map": "/media-library-project/static/css/main.c4dbb367.chunk.css.map",
+  "index.html": "/media-library-project/index.html",
+  "precache-manifest.e8311a158713074e66bc0ccd93440ff6.js": "/media-library-project/precache-manifest.e8311a158713074e66bc0ccd93440ff6.js",
+  "service-worker.js": "/media-library-project/service-worker.js"
 }
