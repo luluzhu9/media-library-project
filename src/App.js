@@ -5,7 +5,6 @@ import Toolbar from './components/Toolbar.js';
 import ListGridContainer from './components/ListGridContainer.js';
 import SingleItemToolbar from './components/SingleItemToolbar.js';
 import SingleItem from './components/SingleItem.js';
-import database from "./firebase.js";
 
 function App(){
     /* Current filtered medias */
@@ -27,7 +26,7 @@ function App(){
         (async () => {
             let mediaData;
             try {
-                const response = await fetch('https://media-api-3e8fa-default-rtdb.firebaseio.com/media/');
+                const response = await fetch('https://media-api-3e8fa-default-rtdb.firebaseio.com/media/.json');
                 mediaData = (await response.json());
                 console.log(mediaData);
             } catch (error) {
