@@ -1,11 +1,9 @@
 ## 🎞️ Demo: https://luluzhu9.github.io/media-library-project/
 
-## Project rundown
-
+## About
 This is a personal React web application project with filter, search, and multiple view options functionalities in a library of books, shows, and films that I've seen.
 
 ## React
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Icons8
