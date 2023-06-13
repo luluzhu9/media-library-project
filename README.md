@@ -1,4 +1,4 @@
-## Demo: https://luluzhu9.github.io/media-library-project/
+## 🎞️ Demo: https://luluzhu9.github.io/media-library-project/
 
 ## Project rundown
 
